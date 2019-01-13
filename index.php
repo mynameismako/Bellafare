@@ -57,10 +57,34 @@
 <div class="space"></div>
 <h3 style="text-align: center; color: #67949d"> OUR WORK</h3>
 </div>
+
 <div class="container">
-	<img src="/images/pathToYourImage.png" class="img-fluid" alt="Responsive image">
-	<img src="/images/pathToYourImage.png" class="img-fluid" alt="Responsive image">
-	<img src="/images/pathToYourImage.png" class="img-fluid" alt="Responsive image">
+<ul class="nav">
+
+<li>
+	<a href="wedding.php">
+	<img src="lib/wedding.jpg" class="img-fluid" alt="Responsive image" id="nav-img">
+	</a>
+</li>
+
+<div class="block"></div>
+
+<li>
+	<img src="lib/oyster.jpg" class="img-fluid" alt="Responsive image" id="nav-img">
+	<a href="events"></a>
+</li>
+
+<div class="block"></div>
+
+<li>
+	<img src="lib/shoes.jpg" class="img-fluid" alt="Responsive image" id="nav-img">
+	<a href="styled"></a>
+</li>
+</ul>
 </div>
+
+<div class="space"></div>
+<div class="line"></div>
+<div class="space"></div>
 </body>
 </html>
