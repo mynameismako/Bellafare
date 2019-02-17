@@ -17,42 +17,47 @@
     <!--container left-->
     <h4>PLEASE COMPLETE THE FORM BELOW</h4>
     
-    <form>
+    <div class="space"></div>
+    
+    <form action="connection.php" method="post">
+    <label>Name *</label>
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control">
+      <input type="text" class="form-control" name="f_name" required>
+        <small class="form-text text-muted">First Name</small>
     </div>
     <div class="col">
-      <input type="text" class="form-control">
+      <input type="text" class="form-control" name="l_name" required>
+        <small class="form-text text-muted">Last Name</small>
     </div>
   </div>
   <div class="form-group">
-    <label>Email Address*</label>
-    <input type="email" class="form-control">
+    <label>Email Address *</label>
+    <input type="email" class="form-control" name="email" required>
   </div>
   <div class="form-group">
     <label>Phone</label>
-    <input type="text" class="form-control">
+    <input type="text" class="form-control" name="phone">
   </div>
   <div class="form-group">
     <label>Wedding Date</label>
-    <input type="text" class="form-control">
+    <input type="date" class="form-control" name="date">
   </div>
   <div class="form-group">
     <label>Wedding Budget</label>
-    <input type="text" class="form-control">
+    <input type="number" class="form-control" placeholder="$" name="budget">
   </div>
   <div class="form-group">
     <label>Number of Guest</label>
-    <input type="text" class="form-control">
+    <input type="number" class="form-control" name="guest">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Tell us a little about your wedding*</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="exampleFormControlTextarea1">Tell us a little about your wedding *</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="info" required></textarea>
   </div>
         <div class="form-group">
     <label for="exampleFormControlTextarea1">How did you hear about Bellafare? *</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="exist" required></textarea>
   </div>
   <button type="submit" class="button" style="float:left;">Submit</button>
 </form>
@@ -68,7 +73,7 @@
             <br>
         </p>
           <p>For event inquiries:<br>
-              <a href="mailto:events@bellafare.com">events@bellafare.com</a>
+              <a href="mailto:events@bellafare.com" class="ex1">events@bellafare.com</a>
               <br>
           </p>
       </div>
@@ -78,7 +83,7 @@
             <br>
         </p>
           <p>For event inquiries:<br>
-              <a href="mailto:info@bellafare.com">info@bellafare.com</a>
+              <a href="mailto:info@bellafare.com" class="ex1">info@bellafare.com</a>
               <br>
           </p>
       </div>

@@ -1,9 +1,9 @@
  <!--instagram-->
     <div class="container">
-    <p>follow along <a href="https://www.instagram.com/bellafare/" target="_blank">@bellafare</a></p>
+    <p>follow along <a href="https://www.instagram.com/bellafare/" target="_blank" style="color: #b5996f;">@bellafare</a></p>
     </div>
 
-    <div class="container">
+    <div class="container4">
         <div class="row">
         <div class="column">
         <a href="https://www.instagram.com/p/Bt6MwepA6Bg/">  

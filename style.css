@@ -79,6 +79,13 @@
 }
 .container4{
     width: auto;
-    margin-left: 5%;
+    margin-left: 6%;
+    margin-right: 1%;
     clear: both;
+}
+a.ex1:hover{
+    color: black;
+}
+a.ex1:link{
+    color: #b5996f;
 }
