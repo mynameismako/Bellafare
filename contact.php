@@ -101,12 +101,12 @@
     
         <!--mid footer-->
     <?php include'mid-footer.php'?>
-        
+       </div>
+    
         <!--footer-->
     <div class="space"> </div>
     <div class="container1">
     <div class="space"> </div>
     <?php include 'footer.php';?>
-    </div>
     </div>
 </body>

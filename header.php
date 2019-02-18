@@ -12,10 +12,19 @@
                         <a class="nav-link" href="index.php">HOME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PORTFOLIO</a>
+                        <div class="container">
+                    <div class="dropdown">
+                      <a class="nav-link" href="#">PORTFOLIO</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="wedding.php">WEDDING</a>
+                        <a class="dropdown-item" href="events.php">EVENT</a>
+                        <a class="dropdown-item" href="styled.php">STYLE</a>
+                      </div>
+                    </div>
+                    </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="about.php">ABOUT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PRESS</a>

@@ -1,9 +1,10 @@
 <?php include'head.php'?>
-<body>
 
 <!--header-->
   <?php include 'header.php';?>
 
+<body>
+    <div class="wrapper">
 <!--slideshow-->
 <div class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -86,7 +87,7 @@
       <div class="space" ></div>
       <h5 style="color:black;font-family: 'Alegreya', serif;">LET’S GET THIS PARTY STARTED… </h5>
     <div class="space"> </div>
-    <button class="button">REACH OUT</button>
+    <a href="contact.php"><button class="button">REACH OUT</button></a>
     <div class="space"> </div>
     <div class="line" ></div>
     <div class="space"> </div>
@@ -101,7 +102,7 @@
     <div class="space"> </div>
     <?php include 'footer.php';?>
     </div>
-        
+</div>
     <!--javascript-->
     <?php include 'javascript.js';?>
 </body>
