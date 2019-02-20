@@ -64,20 +64,11 @@
 </div>
     
 <div class="container">
-  <div class="row">
-      <div class="column">
-        <a href="#"><img src="lib/ring.jpg" alt="weddings" style="width:100%"></a>
-        <p style="color: white;">Weddings</p>
-      </div>
-      <div class="column">
-        <a href="#"><img src="lib/oyster.jpg" alt="events" style="width:100%"></a>
-        <p style="color: white;">Weddings</p>
-      </div>
-      <div class="column">
-        <a href="#"><img src="lib/shoes.jpg" alt="shoes" style="width:100%"></a>
-        <p style="color: white;">Weddings</p>
-      </div>
-    </div>
+  <div class="columns">
+    <img src="lib/ring.jpg" class="img2">
+    <img src="lib/oyster.jpg" class="img2">
+    <img src="lib/shoes.jpg" class="img2">
+</div>
 </div>
 
     <!--external jobs-->

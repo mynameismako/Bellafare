@@ -1,6 +1,7 @@
 <?php include'head.php'?>
 <?php include'header.php'?>
 
+<body>
 <!--video clip-->
 <div class="container">
 
@@ -111,3 +112,4 @@ our mission is to create events that are seamless, stress-free and beautifully c
     <div class="space"> </div>
     <?php include 'footer.php';?>
     </div>
+</body>

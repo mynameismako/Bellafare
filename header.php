@@ -15,7 +15,7 @@
                         <div class="container">
                     <div class="dropdown">
                       <a class="nav-link" href="#">PORTFOLIO</a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <div class="dropdown-menu">
                         <a class="dropdown-item" href="wedding.php">WEDDING</a>
                         <a class="dropdown-item" href="events.php">EVENT</a>
                         <a class="dropdown-item" href="styled.php">STYLE</a>

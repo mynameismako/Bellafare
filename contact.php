@@ -4,7 +4,7 @@
 <div class="space"></div>
 <body>
 
-    <div class="container4">
+    <div class="container">
 <div class="container2">
     
     <h2>GIVE US A SHOUT</h2>
@@ -20,7 +20,8 @@
     <div class="space"></div>
     
     <form action="connection.php" method="post">
-    <label>Name *</label>
+        <label>Name *</label>
+        <div class="space"></div>
   <div class="row">
     <div class="col">
       <input type="text" class="form-control" name="f_name" required>
