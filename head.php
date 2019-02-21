@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="eng">
-    
+
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style1.css">
 <link rel="stylesheet" type="text/css" href="main.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

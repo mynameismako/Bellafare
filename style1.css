@@ -2,3 +2,73 @@
 	width: 80%;
     height: 90%;
 }
+.container5{
+	text-align: center;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+background-repeat: no-repeat;
+background-size: cover;
+filter: contrast(80%);
+width: 340px;
+height: 450px;
+float: left;
+margin: 15px;
+cursor: pointer;
+}
+#box1{
+	background-image: url("lib/wed.jpg");
+}
+#box2{
+	background-image: url("lib/wed2.jpg");
+}
+
+#box3{
+	background-image: url("lib/wed3.jpg");
+}
+
+#box4{
+	background-image: url("lib/wed1.jpg");
+}
+
+#box5{
+	background-image: url("lib/wed4.jpg");
+
+}
+
+#box6{
+	background-image: url("lib/wed5.jpg");
+}
+
+#box7{
+	background-image: url("lib/wed6.jpg");
+}
+
+#box8{
+	background-image: url("lib/wed7.jpg");
+}
+
+#box9{
+	background-image: url("lib/wed8.jpg");
+}
+
+#box10{
+	background-image: url("lib/wed9.jpg");
+}
+
+#box11{
+	background-image: url("lib/wed0.jpg");
+}
+
+#box12{
+	background-image: url("lib/wed11.jpg");
+
+}
+.spacer{
+    height: 1960px;
+}
+.caption{
+    text-align: center;
+    margin-top: 55%;
+    color: white;
+}
